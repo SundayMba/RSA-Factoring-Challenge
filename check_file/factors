@@ -30,7 +30,6 @@ def rsa_factorization(num):
         else:
             factor -= 2
 
-
 if len(sys.argv) != 2:
     print("Usage: factors <file>")
     exit()
